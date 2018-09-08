@@ -11,11 +11,11 @@ export class UserList extends React.Component<InterfaceProps, {}> {
 
   public render() {
     // const { users }: any = this.props;
-
     return (
       <div>
         <h2>List of Usernames of Users</h2>
         <p>(Saved on Sign Up in Firebase Database)</p>
+        <ul />
       </div>
     );
   }

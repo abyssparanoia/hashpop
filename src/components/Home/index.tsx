@@ -25,6 +25,7 @@ class HomeComponent extends React.Component {
   }
 }
 const mapStateToProps = (state: any) => ({
+  ...state,
   users: state.userState.users
 });
 
